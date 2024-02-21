@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90CAAA9924E71FF10013969F /* godot_plugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CAAA9824E71FF10013969F /* godot_plugin.mm */; };
-		90CAAAA424E724C50013969F /* godot_plugin_implementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CAAAA324E724C50013969F /* godot_plugin_implementation.mm */; };
+		90CAAAA424E724C50013969F /* RateMyApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CAAAA324E724C50013969F /* RateMyApp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 		90CAAA9424E71FF10013969F /* libgodot_plugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgodot_plugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CAAA9724E71FF10013969F /* godot_plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = godot_plugin.h; sourceTree = "<group>"; };
 		90CAAA9824E71FF10013969F /* godot_plugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = godot_plugin.mm; sourceTree = "<group>"; };
-		90CAAAA324E724C50013969F /* godot_plugin_implementation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = godot_plugin_implementation.mm; sourceTree = "<group>"; };
-		90CAAAA524E724D00013969F /* godot_plugin_implementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = godot_plugin_implementation.h; sourceTree = "<group>"; };
+		90CAAAA324E724C50013969F /* RateMyApp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RateMyApp.mm; sourceTree = "<group>"; };
+		90CAAAA524E724D00013969F /* RateMyApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateMyApp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 			children = (
 				90CAAA9724E71FF10013969F /* godot_plugin.h */,
 				90CAAA9824E71FF10013969F /* godot_plugin.mm */,
-				90CAAAA524E724D00013969F /* godot_plugin_implementation.h */,
-				90CAAAA324E724C50013969F /* godot_plugin_implementation.mm */,
+				90CAAAA524E724D00013969F /* RateMyApp.h */,
+				90CAAAA324E724C50013969F /* RateMyApp.mm */,
 			);
 			path = godot_plugin;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90CAAAA424E724C50013969F /* godot_plugin_implementation.mm in Sources */,
+				90CAAAA424E724C50013969F /* RateMyApp.mm in Sources */,
 				90CAAA9924E71FF10013969F /* godot_plugin.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

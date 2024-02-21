@@ -11,17 +11,17 @@
 
 #include "core/object.h"
 
-class PluginExample : public Object {
-    GDCLASS(PluginExample, Object);
-    
-    static void _bind_methods();
+
+class RateMyApp : public Object {
+    GDCLASS(RateMyApp, Object);
     
 public:
+    RateMyApp();
+    ~RateMyApp();
     
-    Error foo();
-    
-    PluginExample();
-    ~PluginExample();
+    static void _register_methods();
+
+    void showRateMe();
 };
 
 #endif /* godot_plugin_implementation_h */

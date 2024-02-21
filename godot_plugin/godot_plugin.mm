@@ -19,7 +19,7 @@ void godot_plugin_init() {
     NSLog(@"init plugin");
 
     plugin = memnew(PluginExample);
-    Engine::get_singleton()->add_singleton(Engine::Singleton("PluginExample", plugin));
+    Engine::get_singleton()->add_singleton(Engine::Singleton("RateMyApp", plugin));
 }
 
 void godot_plugin_deinit() {
